@@ -14,9 +14,15 @@ export default function SignupPage() {
   })
 
   const [buttonDisabled, setButtonDisabled] = React.useState(false);
+  const [loding, setLoading] = React.useState(false);
 
   const onSignup = async () => {
-    
+    try {
+      
+    } catch (error) {
+      
+    }
+
   }
 
   useEffect(() => {

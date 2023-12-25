@@ -37,7 +37,7 @@ export default function SignupPage() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1>Signup</h1>
+      <h1>{loading ? "Signup" : "Processing"}</h1>
       <hr />
 
       <label htmlFor="username">User Name</label>
